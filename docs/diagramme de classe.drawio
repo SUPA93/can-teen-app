@@ -1,0 +1,169 @@
+<mxfile host="65bd71144e">
+    <diagram id="zCQ8nOouyu2ieMCMeRLU" name="Page-1">
+        <mxGraphModel dx="1244" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Administrateur" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Firstname: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry y="95" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Password: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Email: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry y="160" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Role: Bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="65" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Parent Employé" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="30" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Firstname: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry y="95" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Password: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Email: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry y="160" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Role: Bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Élève" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="30" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Firstname: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="95" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Password: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Email: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="160" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Role: Bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Ingrédient" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="280" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Name: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="ID: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Family: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="95" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Description: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="125" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Add date : date" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="185" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Picture: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="10" y="155" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Event" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="280" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Name: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="40">
+                    <mxGeometry x="10" y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="ID: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="40">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Description: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="40">
+                    <mxGeometry x="10" y="95" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Add date: date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="40">
+                    <mxGeometry y="170" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Picture: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="40">
+                    <mxGeometry x="10" y="130" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Wallet" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="280" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Owner: FK ID" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="50">
+                    <mxGeometry x="10" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="ID: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="50">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Amount: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="50">
+                    <mxGeometry x="10" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Contact" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="280" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Content: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57">
+                    <mxGeometry x="10" y="65" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="ID: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Sender: FK ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57">
+                    <mxGeometry y="95" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Recipient: FK ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57">
+                    <mxGeometry y="125" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Fournisseur" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="30" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry y="65" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Firstname: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry y="95" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Password: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Email: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry y="160" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Role: Bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Role" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="280" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Role: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="70">
+                    <mxGeometry x="10" y="65" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="ID: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="70">
+                    <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

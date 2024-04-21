@@ -1,0 +1,75 @@
+Personas
+
+
+Administrateur (M. Renaud)
+Âge : 38 ans
+Profession : Gestionnaire de services de restauration d'entreprise
+
+Objectifs : Optimiser la gestion des repas, assurer la satisfaction des employés, simplifier la communication et la gestion financière.
+Technologie : Utilise fréquemment des outils de gestion en ligne et des applications mobiles pour le suivi des performances et la gestion logistique.
+
+
+Employé (Mme. Lefevre)
+Âge : 29 ans
+Profession : Développeuse Web
+
+Objectifs : Accéder facilement aux menus, gérer ses dépenses de restauration, et bénéficier de repas sains et variés au travail.
+Technologie : A l'aise avec la technologie, préfère utiliser des applications mobiles pour toutes ses transactions quotidiennes.
+
+
+Fournisseur (M. Chauvin)
+Âge : 45 ans
+Profession : Fournisseur de produits alimentaires
+
+Objectifs : Fournir des produits de qualité, maintenir une bonne relation avec les entreprises et simplifier le processus de commande et de livraison.
+Technologie : Utilise des outils technologiques pour la gestion des stocks et des commandes.
+
+
+
+User Stories
+
+Administrateur
+Connexion/Déconnexion :
+En tant qu'administrateur, je souhaite pouvoir me connecter et me déconnecter pour sécuriser l'accès aux informations sensibles.
+
+Gestion des utilisateurs :
+En tant qu'administrateur, je souhaite pouvoir gérer les comptes des employés et des fournisseurs pour contrôler les accès et les permissions.
+
+Planification des menus :
+En tant qu'administrateur, je souhaite pouvoir créer et planifier des menus hebdomadaires pour assurer une alimentation équilibrée pour les employés.
+Pouvoir noter des événements cléfs, commander des ressources aux fournisseurs.
+
+Gestion financière :
+En tant qu'administrateur, je souhaite pouvoir visualiser et gérer les transactions financières pour maintenir une gestion efficace du budget de restauration.
+
+Communication :
+En tant qu'administrateur, je souhaite envoyer des notifications et des mises à jour pour informer les employés des nouveautés ou des changements dans le service de restauration.
+
+
+Employé
+
+
+Gestion de compte :
+En tant qu'employé, je souhaite pouvoir me connecter et accéder à mon profil pour gérer mes informations personnelles et mes préférences alimentaires.
+
+Accès aux menus :
+En tant qu'employé, je souhaite accéder aux menus quotidiens pour planifier mes repas et m'assurer des options saines.
+
+Transactions financières :
+En tant qu'employé, je souhaite pouvoir recharger mon solde et vérifier mes dépenses pour gérer mon budget de restauration.
+
+Feedback et communication :
+En tant qu'employé, je souhaite pouvoir donner mon avis sur les repas et communiquer facilement avec les gestionnaires pour améliorer le service.
+
+
+Fournisseur
+
+Interface de commande :
+En tant que fournisseur, je souhaite accéder à une plateforme simple pour recevoir et gérer les commandes des entreprises de manière efficace.
+
+Mise à jour des stocks :
+En tant que fournisseur, je souhaite pouvoir mettre à jour les informations sur les stocks pour garantir la disponibilité des produits.
+
+Communication avec les administrateurs :
+En tant que fournisseur, je souhaite pouvoir communiquer facilement avec les gestionnaires des entreprises pour résoudre rapidement les problèmes et discuter des besoins.
+
