@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="zCQ8nOouyu2ieMCMeRLU" name="Page-1">
-        <mxGraphModel dx="1244" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+        <mxGraphModel dx="1020" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="Administrateur" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                <mxCell id="3" value="Administrator" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
                     <mxGeometry x="40" y="30" width="160" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
@@ -25,7 +25,7 @@
                 <mxCell id="4" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="50" y="65" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Parent Employé" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                <mxCell id="17" value="Parent Employee" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
                     <mxGeometry x="240" y="30" width="160" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
@@ -46,7 +46,7 @@
                 <mxCell id="23" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
                     <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Élève" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                <mxCell id="24" value="Student" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
                     <mxGeometry x="440" y="30" width="160" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
@@ -67,7 +67,7 @@
                 <mxCell id="30" value="ID : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
                     <mxGeometry x="10" y="35" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="Ingrédient" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                <mxCell id="31" value="Ingredient" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
                     <mxGeometry x="640" y="280" width="160" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Name: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="31">
@@ -133,7 +133,7 @@
                 <mxCell id="62" value="Recipient: FK ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57">
                     <mxGeometry y="125" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="Fournisseur" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
+                <mxCell id="63" value="Supplier" style="swimlane;whiteSpace=wrap;html=1;shadow=0;fillColor=default;align=center;verticalAlign=middle;startSize=30;" vertex="1" parent="1">
                     <mxGeometry x="640" y="30" width="160" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="Name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="63">
