@@ -1,8 +1,31 @@
-# React + Vite
+21/04/2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ressources
+[Figma]
+[Trello]
 
-Currently, two official plugins are available:
+Développement
+Procédure attribution tâche
+Passage de la carte [Trello]de T1/T2/T3 à En cours
+Création de la branche avec la commande : git flow feature start <Nom de la fonction>
+Attribution du membre sur la carte [Trello]
+Séléction de la branche via l'intégration GitHub de la carte
+Bon Code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Procédure validation tâche
+Commande sur la branche : git add .
+Commande sur la branche : git commit -m "waiting validation for <Nom de la fonction>"
+Commande sur la branche : git push
+Bouton À approuver sur la carte [Trello]
+Attente validation
+
+Alias Path :
+@ : ./src
+@Components : ./src/components
+@Pages : ./src/pages
+@Assets : ./src/assets
+@Services : ./src/services
+@Contexts : ./src/context
+@UiComponents : ./src/components/uiComponents
+
+Notes :
