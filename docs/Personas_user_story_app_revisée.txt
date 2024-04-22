@@ -1,0 +1,106 @@
+Personas
+
+
+Administrateur (M. Dubois)
+Âge : 40 ans
+Profession : Responsable de restauration pour une école et une entreprise
+
+Objectifs : Assurer une gestion efficace de la restauration, maintenir une communication fluide avec les fournisseurs et les utilisateurs, offrir des repas sains et sécurisés.
+Technologie : Maîtrise des outils de gestion en ligne et des applications mobiles pour la gestion des services de restauration.
+
+
+Parent/Employé (Mme. Lefevre)
+Âge : 32 ans
+Profession : Employée dans une entreprise tech, parent d'un élève du primaire
+
+Objectifs : Gérer les dépenses de restauration de sa famille, assurer une alimentation équilibrée pour elle et son enfant, utiliser une interface simple pour gérer les comptes.
+Technologie : Utilise activement les applications mobiles pour la gestion quotidienne et les transactions.
+
+
+Élève (Léa)
+Âge : 10 ans
+Niveau scolaire : CM2
+
+Objectifs : Accéder facilement aux menus, profiter d’événements thématiques à la cantine, avoir une expérience de restauration agréable.
+Technologie : Familière avec les tablettes et ordinateurs, confortable avec l'utilisation basique d'applications scolaires.
+
+
+Fournisseur (M. Chauvin)
+Âge : 45 ans
+Profession : Fournisseur de produits alimentaires
+
+Objectifs : Fournir des produits de qualité, maintenir une relation solide et fiable avec les écoles et entreprises, simplifier les commandes et la logistique.
+Technologie : Utilise des systèmes avancés pour la gestion des stocks et des commandes.
+
+
+User Stories Révisées
+
+
+Administrateur
+
+
+Connexion/Déconnexion et Sécurité :
+En tant qu'administrateur, je souhaite pouvoir me connecter et me déconnecter pour sécuriser l'accès aux informations sensibles et à l'interface de gestion.
+
+Gestion des comptes utilisateurs :
+En tant qu'administrateur, je veux créer, modifier, et supprimer des comptes utilisateurs pour contrôler les accès selon les besoins organisationnels.
+
+Réinitialisation des mots de passe :
+En tant qu'administrateur, je souhaite pouvoir réinitialiser les mots de passe des utilisateurs en cas d'oubli ou de problème de connexion.
+
+Planification des menus :
+En tant qu'administrateur, je veux planifier et mettre à jour les menus pour assurer une offre alimentaire diversifiée et adaptée.
+
+Gestion des transactions et des finances :
+En tant qu'administrateur, je veux superviser et gérer les transactions financières pour maintenir un contrôle efficace des budgets de restauration.
+
+Communication avec les fournisseurs et gestion des commandes :
+En tant qu'administrateur, je souhaite passer et suivre les commandes, communiquer avec les fournisseurs pour discuter des délais de livraison et résoudre les problèmes.
+
+Support technique et aide aux utilisateurs :
+En tant qu'administrateur, je souhaite offrir une assistance en cas de problèmes techniques ou de questions sur l’utilisation de l’application.
+
+
+Parent/Employé
+
+
+Création de compte et Connexion/Déconnexion :
+En tant qu'utilisateur, je souhaite pouvoir créer mon compte, me connecter et me déconnecter pour accéder à mes informations personnelles de manière sécurisée.
+
+Récupération de mot de passe :
+En tant qu'utilisateur, je souhaite pouvoir récupérer ou modifier mon mot de passe facilement en cas d'oubli ou de problème de connexion.
+
+Accès aux menus :
+En tant qu'utilisateur, je veux consulter les menus disponibles pour planifier les repas en fonction des goûts et des besoins nutritionnels.
+
+Gestion des transactions financières :
+En tant qu'utilisateur, je souhaite recharger mon solde et surveiller mes dépenses pour gérer mon budget de restauration efficacement.
+
+Contact en cas de problème :
+En tant qu'utilisateur, je souhaite pouvoir contacter facilement le support technique ou l'administrateur pour résoudre rapidement mes problèmes ou poser des questions.
+
+
+Élève
+
+
+Connexion et gestion de compte :
+En tant qu'élève, je souhaite pouvoir me connecter et accéder à mon profil pour voir les menus et gérer mes préférences alimentaires.
+
+Accès aux informations sur les repas :
+En tant qu'élève, je souhaite obtenir des informations détaillées sur les plats, y compris les allergènes, pour faire des choix alimentaires sûrs.
+
+Participation aux événements thématiques :
+En tant qu'élève, je veux être informé des animations spéciales et y participer pour rendre mes repas plus divertissants.
+
+Communication en cas de problème :
+En tant qu'élève, je souhaite pouvoir signaler un problème ou poser une question à l'administrateur ou au support technique facilement.
+
+
+Fournisseur
+
+
+Gestion des commandes :
+En tant que fournisseur, je souhaite recevoir et traiter les commandes efficacement pour maintenir une bonne relation commerciale.
+
+Communication avec les administrateurs :
+En tant que fournisseur, je souhaite communiquer facilement avec les administrateurs pour garantir une réponse rapide aux demandes et résoudre les problèmes éventuels.
